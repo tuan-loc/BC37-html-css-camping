@@ -1,0 +1,234 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faf4f2;
+}
+
+.clear{
+    clear: both;
+}
+
+/* HEADER */
+.header{
+    background-color: #f8e1db;
+    padding: 10px 30px;
+}
+
+.header .logo img{
+    width: 70px;
+}
+
+.header .navbar{
+    margin-top: 10px;
+}
+
+.header .navbar a{
+    color: #000000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.header .navbar a:hover{
+    color: #e76f51;
+}
+
+/* CAROUSEL */
+.carousel{
+    background-image: url(../img/BG.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* ACTIVITIES */
+.activities{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.activities .title{
+    color: #8d8d8d;
+    margin-bottom: 30px;
+}
+
+.activities .col{
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.activities .thumbnail{
+    position: relative;
+}
+
+.activities .thumbnail img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.activities .item{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.activities .item h1{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.activities .item p{
+    color: #8d8d8d;
+    padding: 0 10px;
+    line-height: 25px;
+}
+
+.activities .heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+.activities .heart i{
+    color: #e76f51;
+}
+
+.activities .item p{
+    margin: 15px 0;
+}
+
+.activities .item .btnReadMore{
+    color: #8d8d8d;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #e8e8e8;
+    border-radius: 30px;
+    margin: 5px 0;
+}
+
+.activities .item .btnReadMore:hover{
+    background-color: #e76f51;
+    color: #ffffff;
+}
+
+.activities .viewAll button{
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 1px solid #e76f51;
+    background-color: transparent;
+    margin: 30px 0;
+    cursor: pointer;
+    color: #e76f51;
+}
+
+.activities .viewAll button:hover{
+    background-color: #e76f51;
+    color: #ffffff;
+}
+
+/* CONTACT */
+.contact{
+    padding: 30px;
+    background-color: #f8e1db;
+    border-radius: 0 15px 15px 0;
+}
+
+.contact .col{
+    width: 50%;
+    float: left;
+}
+
+.contact .contact-left img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.contact .contact-right{
+    padding: 50px;
+    color: #8d8d8d;
+}
+
+.contact .contact-right .contact-info{
+    margin-top: 15px;
+}
+
+.contact .contact-right h1{
+    margin: 5px 0;
+    font-size: 30px;
+}
+
+.contact .contact-right .contact-info h2{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.contact .contact-right .contact-info .contact-social a{
+    text-decoration: none;
+    color: #e76f51;
+}
+
+.contact .contact-right .contact-info .contact-social i{
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #f8e1db;
+    padding: 75px 30px 50px;
+    margin-top: 100px;
+    border-radius: 75px 75px 0 0;
+}
+
+.footer h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    line-height: 1.5;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    margin-bottom: 10px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer .footer-content{
+    width: 40%;
+    float: left;
+    padding-right: 75px;
+}
+
+.footer .help-you, .plan{
+    width: 20%;
+    float: left;
+}
+
+.footer .copyright{
+    text-align: center;
+    margin-top: 50px;
+}
